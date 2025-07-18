@@ -1,62 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="icon" href="my flag.png" type="image/x-icon">
-      <title>my gallery</title>
-      <link rel="stylesheet" href="home.css"> 
-      <link rel="html" href="forms.html">
-      <style> 
-        body {
-        background: linear-gradient( cyan, transparent), linear-gradient( -45deg, magenta, transparent), linear-gradient( 45deg, yellow, transparent);
-        background-blend-mode: multiply;
-        font-family: Arial, Helvetica, sans-serif;
-       
-    }     
-      </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Gallery</title>
+  <link rel="icon" href="my-flag.png" type="image/x-icon">
+  <link rel="stylesheet" href="home.css">
+  <style>
+    body {
+      background: linear-gradient(cyan, transparent),
+                  linear-gradient(-45deg, magenta, transparent),
+                  linear-gradient(45deg, yellow, transparent);
+      background-blend-mode: multiply;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 30px;
+      color: #fff;
+      text-shadow: 2px 2px 5px #000;
+    }
+
+    .mother a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 15px;
+      background: #fff;
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .photos-container {
+      margin: 30px auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .royal-member {
+      max-width: 300px;
+      border: 5px solid gold;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #111;
+      color: #eee;
+    }
+  </style>
 </head>
 <body>
-<div class="mother"> 
-      <h1>welcome to the castle of pictures</h1> 
-      
-      <a href="forms.html"> get a room here</a> 
- <a href="me.html"> learn about the king's life </a> 
-       <a href="dogman.html">chek our king book </a>
-      
-      <p>welcome to my gallery it is a place where you can selsect pictures.  </p>
+  <div class="mother">
+    <h1>Welcome to the Castle of Pictures 👑</h1>
 
-      <p>have you seen that godzila guy he is the king he is strong and he is kind.</p>     
+    <a href="forms.html">Get a Room Here</a>
+    <a href="me.html">Learn About the King's Life</a>
+    <a href="dogman.html">Check Our King Book</a>
 
-      <p>you can come in the castel anybody can come in his castel. <p>
+    <p>This gallery is a magical place to select and explore pictures.</p>
+    <p>Have you seen that Godzilla guy? He’s the king—strong and kind.</p>
+    <p>Anyone is welcome in his castle. Come on in!</p>
 
-      <div class="photos-container">
+    <div class="photos-container">
+      <img class="royal-member" src="https://images.unsplash.com/photo-1740885222801-f6a2e849563b?w=600&auto=format&fit=crop&q=60">
+      <img class="royal-member" src="https://i.pinimg.com/originals/92/b8/0e/92b80e85b513dd143d3c69f4f4a886e7.jpg">
+      <img class="royal-member" src="https://images.pexels.com/photos/27834728/pexels-photo-27834728/free-photo-of-tigermutter-angriffsmodus.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+      <img class="royal-member" src="https://png.pngtree.com/background/20230529/original/pngtree-corporate-business-office-background-picture-image_2784180.jpg">
+      <img class="royal-member" src="https://images4.fanpop.com/image/photos/22700000/Deathly-Hallows-Part-2-Action-Poster-harry-potter-22731860-1600-2366.jpg">
+      <img class="royal-member" src="https://images.unsplash.com/photo-1740422699287-d8bdbbaec629?w=600&auto=format&fit=crop&q=60">
+      <img class="royal-member" src="https://media.canva.com/v2/files/uri:ifs%3A%2F%2FM%2Fdcc62c27-a75f-4d65-be9d-b29e0b76c23a">
+      <img class="royal-member" src="https://plus.unsplash.com/premium_photo-1734549547856-068dadb976eb?q=80&w=2071">
+      <img class="royal-member" src="https://plus.unsplash.com/premium_photo-1734549548006-e9c4847475e2?q=80&w=2071">
+      <img class="royal-member" src="https://images.unsplash.com/photo-1726064855881-3bbb7000b29f?q=80&w=1974">
+    </div>
 
-            <img class="royal-menber" id="borderimg" src="https://images.unsplash.com/photo-1740885222801-f6a2e849563b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNHx8fGVufDB8fHx8fA%3D%3D">
+    <a href="https://en-play.forgeofempires.com/?noMobileRedir=true">Play this game if you want to</a>
+    <p>Daniel plays football...</p>
+    <a href="xml.html">Check my hobbies</a>
+  </div>
 
-            <img class="royal-menber" id="borderimg" src="https://i.pinimg.com/originals/92/b8/0e/92b80e85b513dd143d3c69f4f4a886e7.jpg">
-
-            <img class="royal-menber" id="borderimg" src="https://images.pexels.com/photos/27834728/pexels-photo-27834728/free-photo-of-tigermutter-angriffsmodus.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
-
-            <img class="royal-menber" id="borderimg" src="https://png.pngtree.com/background/20230529/original/pngtree-corporate-business-office-background-picture-image_2784180.jpg">
-
-            <img class="royal-menber" id="borderimg" src="https://th.bing.com/th/id/R.5b7084a1e4b8cf3cb31e32da5f83edac?rik=5ZLuMq1iLQYWJw&riu=http%3a%2f%2fimages4.fanpop.com%2fimage%2fphotos%2f22700000%2fDeathly-Hallows-Part-2-Action-Poster-harry-potter-22731860-1600-2366.jpg&ehk=IGa11ovgT9AkXVsds5klMerJnXWEKHVaIDuSfNS4c9U%3d&risl=&pid=ImgRaw&r=0"> 
-           
-            <img class="royal-menber" id="borderimg" src="https://images.unsplash.com/photo-1740422699287-d8bdbbaec629?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0OHx8fGVufDB8fHx8fA%3D%3D">   
-
-            <img class="royal-menber" id="borderimg" src="https://media.canva.com/v2/files/uri:ifs%3A%2F%2FM%2Fdcc62c27-a75f-4d65-be9d-b29e0b76c23a?csig=AAAAAAAAAAAAAAAAAAAAAM6YbdQ8xmuWLIfuDJnWVQpSBHFS8NTs5myWRHaMcuFI&exp=1740177938&signer=media-rpc&token=AAIAAU0AJGRjYzYyYzI3LWE3NWYtNGQ2NS1iZTlkLWIyOWUwYjc2YzIzYQAAAAABlSqwFlBkqvOKLKmVhyHQXn1VSRxS8C7mDNiT5yq0Ph8CuFW6rA"> 
-
-            <img class="royal-menber" id="borderimg" src="https://plus.unsplash.com/premium_photo-1734549547856-068dadb976eb?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
-
-            <img class="royal-menber" id="borderimg" src="https://plus.unsplash.com/premium_photo-1734549548006-e9c4847475e2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
-
-            <img class="royal-menber" id="borderimg" src="https://images.unsplash.com/photo-1726064855881-3bbb7000b29f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
-      </div>
-    <a href="https://en-play.forgeofempires.com/?noMobileRedir=true&ref=gos_en_uk_foe_spe_city-building_broad-test&k=building%20game%20online&pid=b&bid=foe_en_rsa_h005-h002-h008-h097-h098-h087-h099-h106-h086-h050-h137-h043-h065-h004-h035-d017-d018-d002-d040&gad_source=5&gclid=EAIaIQobChMI27e4gbHLiwMVFlxBAh2lZjYxEAAYASAAEgKUJvD_BwE">play this game if you want to</a>
-</div>
-<p>daniel plays fotball...</p>
-<a href="xml.html">chek my hobbies</a>
-&copy:my gallery
-
+  <footer>
+    &copy; My Gallery
+  </footer>
 </body>
-</html>    
+</html>
