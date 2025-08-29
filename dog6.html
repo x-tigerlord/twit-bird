@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Zoo Apocalypse</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 2rem;
+    }
+    .character-btn {
+      margin: 1rem;
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      background-color: #444;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .character-btn:hover {
+      background-color: #666;
+    }
+    #description {
+      margin-top: 2rem;
+      font-size: 1.3rem;
+      color: #ffcc00;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="zoo">The zoo apocalypse</h1>
+  <p id="intro">Now we have done the tour... Who will you pick: CLAWS, Scarlet, KITTYCLAW, or The Apocalypse King?</p>
+
+  <button class="character-btn" onclick="chooseCharacter(0)">CLAWS</button>
+  <button class="character-btn" onclick="chooseCharacter(1)">Scarlet</button>
+  <button class="character-btn" onclick="chooseCharacter(2)">KITTYCLAW</button>
+  <button class="character-btn" onclick="chooseCharacter(3)">The Apocalypse King</button>
+
+  <div id="description"></div>
+
+  <script>
+    let quote = [
+      "CLAWS: an Indian Bengal tiger who will one day be the king of tigers and save the zoo. Will you play as him?",
+      "Scarlet: a zoo wolf who also wants to save the zoo from the Apocalypse. Will you play as her?",
+      "KITTYCLAW: a female white Indian Bengal tiger who will one day be the queen of tigers and save the zoo alongside CLAWS and Scarlet. Will you play as her?",
+      "The Apocalypse King: an evil grey wolf who got stung by the apocalypse first. He is now the king of the apocalypse monsters. His green eyes glow when it gets very, very dark. Will you play as him?"
+    ];
+
+    function chooseCharacter(index) {
+      document.getElementById("description").textContent = quote[index];
+    }
+  </script>
+</body>
+</html>
