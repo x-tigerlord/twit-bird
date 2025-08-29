@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Who's Watching?</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      font-family: Algirian;
+      
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 40px;
+    }
+
+    .avatar-row {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+      border: 1px solid red;
+    }
+
+    .avatar {
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .avatar:hover {
+      transform: scale(1.1);
+    }
+
+    .avatar img {
+      width: 150px;
+      height: 150px;
+      border-radius: 10px;
+      border: 3px solid white;
+      object-fit: cover;
+    }
+
+    .avatar-name {
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+   .chimp{
+    font-family:Algerian ;
+    color: aliceblue;
+   }
+  </style>
+</head>
+<body>
+  <h1 class="chimp">Who's Watching?</h1>
+  <section class="avatar-row">
+    <div class="avatar">
+      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/499b16bc-8bb8-4e07-a412-0b4e06797168/dj8kqj4-60f0a8a4-3cb4-434f-8a02-b4a2fa047961.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ5OWIxNmJjLThiYjgtNGUwNy1hNDEyLTBiNGUwNjc5NzE2OFwvZGo4a3FqNC02MGYwYThhNC0zY2I0LTQzNGYtOGEwMi1iNGEyZmEwNDc5NjEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.IGlLS4iw9q_3FZ-LELtMMh5R5X29yK50hXADgNr7tiM" alt="Dog Man">
+      <div class="avatar-name">Dog Man</div>
+    </div>
+
+     <div class="avatar">
+      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/499b16bc-8bb8-4e07-a412-0b4e06797168/dip2mgl-9dc9da19-8d49-4135-b349-0b5b427760f4.png/v1/fill/w_701,h_1139/petey_png_by_lolboyyeah_dip2mgl-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzQ5OWIxNmJjLThiYjgtNGUwNy1hNDEyLTBiNGUwNjc5NzE2OFwvZGlwMm1nbC05ZGM5ZGExOS04ZDQ5LTQxMzUtYjM0OS0wYjViNDI3NzYwZjQucG5nIiwid2lkdGgiOiI8PTc4OCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.NTDitA7sRwJ5j-eb9R1PW7tf27qFy4BQ9f48XK-UgPA" alt=" Petey">
+      <div class="avatar-name"> Petey</div>
+
+    <div class="avatar">
+      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/499b16bc-8bb8-4e07-a412-0b4e06797168/diqonjg-857452ed-8550-497f-a64a-71b79737d33c.png/v1/fill/w_800,h_999/lil_petey_png_by_lolboyyeah_diqonjg-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTM1MCIsInBhdGgiOiJcL2ZcLzQ5OWIxNmJjLThiYjgtNGUwNy1hNDEyLTBiNGUwNjc5NzE2OFwvZGlxb25qZy04NTc0NTJlZC04NTUwLTQ5N2YtYTY0YS03MWI3OTczN2QzM2MucG5nIiwid2lkdGgiOiI8PTEwODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.WQFx6ijlYiZfqOg_MgvqUS-6ly45NPmOKcN7qpLM1PQ" alt="Lil Petey">
+      <div class="avatar-name">Lil Petey</div>
+    </div>
+    
+    <div class="avatar">
+      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/503ded8f-0b83-498a-97f3-6e711e29ed7d/diot1tc-36bf3a3e-5fca-4b79-b9ce-2538c6ee437d.png/v1/fill/w_378,h_641/sarah_hatoff__dog_man_movie__by_memes1991_diot1tc-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjQxIiwicGF0aCI6IlwvZlwvNTAzZGVkOGYtMGI4My00OThhLTk3ZjMtNmU3MTFlMjllZDdkXC9kaW90MXRjLTM2YmYzYTNlLTVmY2EtNGI3OS1iOWNlLTI1MzhjNmVlNDM3ZC5wbmciLCJ3aWR0aCI6Ijw9Mzc4In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.CaoXBCE6DZd4Xf1DDp5WY3agHNoOSkY5e-InQRVVgrs" alt="Sarah Hatoff">
+      <div class="avatar-name">Sarah</div>
+    </div>
+  </section>
+</body>
+</html>
