@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Character Tour</title>
+  <style>
+    .box {
+      background-color: #f0f0f0;
+      padding: 20px;
+      margin: 10px;
+      display: inline-block;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .box img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+    }
+
+    .bob {
+      background-color: ghostwhite;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+  </style>
+</head>
+<body class="bob">
+  <h1>Welcome to the Character Tour!</h1>
+  <section>
+    <div class="box">
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/056/673/968/small/elegant-rustic-3d-render-purple-sorcerer-fantasy-illustration-authentic-png.png" alt="Box 1">
+      <p>Evil Wizard PNG</p>
+    </div>
+    <div class="box">
+      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/503ded8f-0b83-498a-97f3-6e711e29ed7d/di6vrle-e35d190a-a2ca-4e5e-82a2-42212d749ece.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUwM2RlZDhmLTBiODMtNDk4YS05N2YzLTZlNzExZTI5ZWQ3ZFwvZGk2dnJsZS1lMzVkMTkwYS1hMmNhLTRlNWUtODJhMi00MjIxMmQ3NDllY2UucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.uKEfR45V5GRc8vJISuE5o7G-CGVBXbiSGRjtqrh6HxU" alt="Box 2">
+      <p>Dog Man PNG</p>
+    </div>
+    <div class="box">
+      <img src="https://www.pngmart.com/files/22/How-To-Train-Your-Dragon-PNG-Transparent.png" alt="Box 3">
+      <p>Toothless PNG</p>
+    </div>
+    <div class="box">
+      <img src="https://styles.redditmedia.com/t5_82ezvz/styles/communityIcon_tw4aby2zmz8e1.png" alt="Box 4">
+      <p>Bunny vs Monkey PNG</p>
+    </div>
+    <div class="box">
+      <img src="https://kumpel-leo.de/cdn/shop/files/123000014842-disney-disneyland-paris-baby-tiger-rajah-aus-aladdin-kuscheltier-kumpel-leo-disney-gebraucht-342951.jpg" alt="Box 5">
+      <p>Daniel JR picture</p>
+    </div>
+    <div class="box">
+      <img src="https://www.buildabear.co.uk/dw/image/v2/BBNG_PRD/on/demandware.static/-/Sites-buildabear-master/default/dw6095c189/32230701732370~x20032109.jpg?sw=800&sh=800&sm=fit" alt="Box 5">
+      <p>Honey Girls Teegan Tiger JR Plush </p>
+    </div>
+  </section>
+
+  <script>
+    let tracker = 0;
+    while (tracker < 5) {
+      let username = prompt("What is your name?");
+      alert(username + ", hi! Are you ready to start our tour?");
+      tracker++;
+    }
+    alert("Thanks for joining the tour! Enjoy exploring the characters.");
+  </script>
+</body>
+</html>
+
